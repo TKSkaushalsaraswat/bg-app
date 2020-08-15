@@ -1,5 +1,5 @@
 import sizes from './sizes';
-import bg from './img/bg3.jpg';
+import bg from './img/bg1.jpg';
 export default {
   '@global': {
     '.fade-exit': {
@@ -18,11 +18,18 @@ export default {
     /* background by SVGBackgrounds.com */
     backgroundColor: '#ED6100',
     backgroundSize: 'cover',
-    backgroundImage: `url(${bg});`,
+    backgroundImage: `  linear-gradient(
+      to right bottom,
+      rgba(8, 9, 26, 0.85),
+      rgba(9, 10, 31, 0.85)
+    ), url(${bg});`,
     overflowY: 'scroll',
   },
   heading: {
-    fontSize: '2rem',
+    zIndex: '20',
+    width: '18%',
+    marginBottom: '2rem',
+    marginTop: '1rem',
   },
   container: {
     width: '50%',

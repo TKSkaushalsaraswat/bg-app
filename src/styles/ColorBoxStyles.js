@@ -23,7 +23,7 @@ export default {
     },
     [sizes.down('xs')]: {
       width: '100%',
-      height: (props) => (props.showingFullPalette ? '5%' : '10%'),
+      height: (props) => (props.showingFullPalette ? '6%' : '10.7%'),
     },
   },
   copyText: {
