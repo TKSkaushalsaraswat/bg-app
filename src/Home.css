@@ -199,10 +199,10 @@ img {
   }
   .btn-1 {
     margin-top: 1rem !important;
-    width: 50% !important;
+    width: 70% !important;
     /* font-size: 0.9rem !important; */
     overflow: hidden !important;
-    padding: 0.4rem 1rem;
+    padding: 0.4rem 1.4rem;
   }
 }
 
