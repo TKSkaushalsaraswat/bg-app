@@ -7,6 +7,7 @@ export default {
     justifyContent: 'flex-start',
     height: '6vh',
     marginBottom: '0.3rem',
+    color: '#333',
   },
   logo: {
     marginRight: '15px',

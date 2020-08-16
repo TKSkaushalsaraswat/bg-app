@@ -4,7 +4,7 @@ export default {
   ColorBox: {
     width: '20%',
     marginTop: '-0.3rem',
-    height: (props) => (props.showingFullPalette ? '26%' : '51%'),
+    height: (props) => (props.showingFullPalette ? '25.5%' : '51%'),
     margin: '0 auto',
     display: 'inline-block',
     position: 'relative',
@@ -23,7 +23,7 @@ export default {
     },
     [sizes.down('xs')]: {
       width: '100%',
-      height: (props) => (props.showingFullPalette ? '5.2%' : '10.7%'),
+      height: (props) => (props.showingFullPalette ? '5%' : '10%'),
     },
   },
   copyText: {

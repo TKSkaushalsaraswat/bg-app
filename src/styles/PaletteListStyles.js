@@ -18,18 +18,15 @@ export default {
     /* background by SVGBackgrounds.com */
     backgroundColor: '#ED6100',
     backgroundSize: 'cover',
-    backgroundImage: `  linear-gradient(
-      to right bottom,
-      rgba(8, 9, 26, 0.85),
-      rgba(9, 10, 31, 0.85)
-    ), url(${bg});`,
+    backgroundImage: `
+    linear-gradient(to right, rgba(0,0,0,0.8),rgba(0,0,0,0.8)),
+    url(${bg});`,
     overflowY: 'scroll',
   },
   heading: {
-    zIndex: '20',
-    width: '18%',
-    marginBottom: '2rem',
     marginTop: '1rem',
+    marginBottom: '1rem',
+    width: '20% !important',
   },
   container: {
     width: '50%',
