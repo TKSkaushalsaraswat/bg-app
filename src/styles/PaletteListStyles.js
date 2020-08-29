@@ -1,5 +1,5 @@
 import sizes from './sizes';
-import bg from './img/bg1.jpg';
+import bg from './img/layouts.jpg';
 export default {
   '@global': {
     '.fade-exit': {
@@ -16,10 +16,9 @@ export default {
     alignItems: 'flex-start',
     justifyContent: 'center',
     /* background by SVGBackgrounds.com */
-    backgroundColor: '#ED6100',
+    // backgroundColor: '#ED6100',
     backgroundSize: 'cover',
-    backgroundImage: `
-    linear-gradient(to right, rgba(0,0,0,0.8),rgba(0,0,0,0.8)),
+    backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), 
     url(${bg});`,
     overflowY: 'scroll',
   },
@@ -29,7 +28,7 @@ export default {
     width: '20% !important',
   },
   container: {
-    width: '50%',
+    width: '20%',
     display: 'flex',
     alignItems: 'flex-start',
     flexDirection: 'column',

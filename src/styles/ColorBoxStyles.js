@@ -10,6 +10,7 @@ export default {
     position: 'relative',
     cursor: 'pointer',
     marginBottom: '-3.5px',
+
     '&:hover button': {
       opacity: 1,
     },
@@ -62,6 +63,10 @@ export default {
     textAlign: 'center',
     outline: 'none',
     background: 'rgba(255, 255, 255, 0.3)',
+
+    boxShadow:
+      '0 10px 70px 0 rgba(103,151,255,.3), 0 15px 105px 0 rgba(103,151,255,.)',
+
     fontSize: '1rem',
     lineHeight: '30px',
     textTransform: 'uppercase',

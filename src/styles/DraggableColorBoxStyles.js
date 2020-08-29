@@ -4,12 +4,14 @@ import chroma from 'chroma-js';
 const styles = {
   root: {
     width: '20%',
-    height: '25%',
+    height: '25.5%',
+    marginTop: '-5px',
     margin: '0 auto',
     display: 'inline-block',
     position: 'relative',
     cursor: 'pointer',
     marginBottom: '-3.5px',
+
     '&:hover svg': {
       color: 'white',
       transform: 'scale(1.5)',

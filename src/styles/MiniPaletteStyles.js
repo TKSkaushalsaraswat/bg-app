@@ -1,22 +1,29 @@
 export default {
   root: {
     backgroundColor: 'white',
-    // border: '1px solid black',
     borderRadius: '5px',
     padding: '0.5rem',
     position: 'relative',
     overflow: 'hidden',
     cursor: 'pointer',
+    boxShadow:
+      '0 10px 70px 0 rgba(103,151,255,.3), 0 15px 105px 0 rgba(103,151,255,.3)',
+
+    '&:hover ': {
+      boxShadow:
+        '0 10px 70px 0 rgba(103,151,255,.6), 0 15px 105px 0 rgba(103,151,255,.6)',
+    },
     '&:hover svg': {
       opacity: 1,
     },
   },
   colors: {
     backgroundColor: '#dae1e4',
-    height: '145px',
+    height: '150px',
     width: '100%',
     borderRadius: '5px',
     overflow: 'hidden',
+    transition: 'all 0.3s ease-in-out',
   },
   title: {
     display: 'flex',

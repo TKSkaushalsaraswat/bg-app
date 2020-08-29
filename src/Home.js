@@ -27,7 +27,8 @@ export default function Home() {
           <div>
             <img
               className="img-home"
-              src="https://i.ibb.co/kqPkLYs/smartmockups-kdvpmboc.png"
+              alt="theCodemate"
+              src="https://i.ibb.co/60mbSHs/bg4u.png"
             />
           </div>
 
