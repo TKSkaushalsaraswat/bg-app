@@ -26,8 +26,8 @@ export default [
     ],
   },
   {
-    paletteName: 'Flat UI Colors v1',
-    id: 'flat-ui-colors-v1',
+    paletteName: 'UI Colors v1',
+    id: 'ui-colors-v1',
     emoji: '🤙',
     colors: [
       { name: 'Turquoise', color: '#1abc9c' },
@@ -53,8 +53,8 @@ export default [
     ],
   },
   {
-    paletteName: 'Flat UI Colors Dutch',
-    id: 'flat-ui-colors-dutch',
+    paletteName: 'UI Colors Dutch',
+    id: 'ui-colors-dutch',
     emoji: '🇳🇱',
     colors: [
       { name: 'Sunflower', color: '#FFC312' },
@@ -80,8 +80,8 @@ export default [
     ],
   },
   {
-    paletteName: 'Flat UI Colors American',
-    id: 'flat-ui-colors-american',
+    paletteName: 'UI Colors American',
+    id: 'ui-colors-american',
     emoji: '🇺🇸',
     colors: [
       { name: 'LightGreenishBlue', color: '#55efc4' },
@@ -107,8 +107,8 @@ export default [
     ],
   },
   {
-    paletteName: 'Flat UI Colors Aussie',
-    id: 'flat-ui-colors-aussie',
+    paletteName: 'UI Colors Aussie',
+    id: 'ui-colors-aussie',
     emoji: '🇦🇺',
     colors: [
       { name: 'Beekeeper', color: '#f6e58d' },
@@ -134,8 +134,8 @@ export default [
     ],
   },
   {
-    paletteName: 'Flat UI Colors British',
-    id: 'flat-ui-colors-british',
+    paletteName: 'UI Colors British',
+    id: 'ui-colors-british',
     emoji: '🇬🇧',
     colors: [
       { name: 'ProtossPylon', color: '#00a8ff' },
@@ -161,8 +161,8 @@ export default [
     ],
   },
   {
-    paletteName: 'Flat UI Colors Spanish',
-    id: 'flat-ui-colors-spanish',
+    paletteName: 'UI Colors Spanish',
+    id: 'ui-colors-spanish',
     emoji: '🇪🇸',
     colors: [
       { name: 'JacksonsPurple', color: '#40407a' },
@@ -188,8 +188,8 @@ export default [
     ],
   },
   {
-    paletteName: 'Flat UI Colors Indian',
-    id: 'flat-ui-colors-indian',
+    paletteName: 'UI Colors Indian',
+    id: 'ui-colors-indian',
     emoji: '🇮🇳',
     colors: [
       { name: 'OrchidOrange', color: '#FEA47F' },
@@ -215,8 +215,8 @@ export default [
     ],
   },
   {
-    paletteName: 'Flat UI Colors French',
-    id: 'flat-ui-colors-french',
+    paletteName: 'UI Colors French',
+    id: 'ui-colors-french',
     emoji: '🇫🇷',
     colors: [
       { name: 'FlatFlesh', color: '#fad390' },
