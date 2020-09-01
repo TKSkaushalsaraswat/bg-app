@@ -1,21 +1,21 @@
-import React, { Component } from 'react';
-import { withStyles } from '@material-ui/core/styles';
-import PaletteMetaForm from './PaletteMetaForm';
-import { Link } from 'react-router-dom';
-import classNames from 'classnames';
-import CssBaseline from '@material-ui/core/CssBaseline';
-import AppBar from '@material-ui/core/AppBar';
-import Toolbar from '@material-ui/core/Toolbar';
-import Typography from '@material-ui/core/Typography';
-import IconButton from '@material-ui/core/IconButton';
-import AddToPhotosIcon from '@material-ui/icons/AddToPhotos';
-import Button from '@material-ui/core/Button';
-import styles from './styles/PaletteFormNavStyles';
+import React, { Component } from "react";
+import { withStyles } from "@material-ui/core/styles";
+import PaletteMetaForm from "./PaletteMetaForm";
+import { Link } from "react-router-dom";
+import classNames from "classnames";
+import CssBaseline from "@material-ui/core/CssBaseline";
+import AppBar from "@material-ui/core/AppBar";
+import Toolbar from "@material-ui/core/Toolbar";
+import Typography from "@material-ui/core/Typography";
+import IconButton from "@material-ui/core/IconButton";
+import AddToPhotosIcon from "@material-ui/icons/AddToPhotos";
+import Button from "@material-ui/core/Button";
+import styles from "./styles/PaletteFormNavStyles";
 
 class PaletteFormNav extends Component {
   constructor(props) {
     super(props);
-    this.state = { newPaletteName: '', formShowing: false };
+    this.state = { newPaletteName: "", formShowing: false };
     this.handleChange = this.handleChange.bind(this);
     this.showForm = this.showForm.bind(this);
     this.hideForm = this.hideForm.bind(this);

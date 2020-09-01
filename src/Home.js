@@ -1,6 +1,6 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
-import './Home.css';
+import React from "react";
+import { Link } from "react-router-dom";
+import "./Home.css";
 
 export default function Home() {
   return (
@@ -10,7 +10,7 @@ export default function Home() {
           <img
             className="logo"
             src="https://i.ibb.co/PgYdCbL/logo.png"
-            alt="theCodemate"
+            alt="BG4U"
           />
         </h1>
         <ul>
@@ -27,8 +27,8 @@ export default function Home() {
           <div>
             <img
               className="img-home"
-              alt="theCodemate"
-              src="https://i.ibb.co/60mbSHs/bg4u.png"
+              alt="BG4U"
+              src="https://i.ibb.co/2NR1JNS/bg4u.png"
             />
           </div>
 
